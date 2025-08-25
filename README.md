@@ -60,6 +60,18 @@ Option 1: Windows (Recommended)
 Option 2: Manual Docker Commands
 
 
+and 
+
+🚀 How to Run (Choose One): docker-compose 
+Option 1: Local Development (Recommended)
+# 1. Start services only
+docker-compose up -d postgres-db redis zookeeper kafka
+
+# 2. Wait 30 seconds for services to be ready
+
+# 3. Start application
+start-dev.bat
+
 🌐 Access Points
 Frontend Application: http://localhost:3001
 Backend API: http://localhost:8081
@@ -123,3 +135,12 @@ Spring Boot Backend with full API functionality
 React Frontend with modern UI and navigation
 Nginx serving the frontend with proper configuration
 
+
+
+
+🎯 Key Benefits:
+Environment Profiles: Easy switching between dev/docker/prod
+Local Development: No more AWS EC2 connection issues
+Better Error Handling: Graceful Kafka configuration
+Health Checks: Monitor service status
+Automated Setup: Batch scripts for easy startup
