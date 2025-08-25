@@ -3,7 +3,8 @@ Child app and main app is BookStore
 
 
 🎯 Application Overview
-D_DeliveryBook is a complete, production-ready delivery management system designed to communicate with BookStore applications and manage the entire delivery lifecycle of book orders.
+D_DeliveryBook is a complete, production-ready delivery management system designed to 
+communicate with BookStore applications and manage the entire delivery lifecycle of book orders.
 
 
 Backend (Spring Boot)
